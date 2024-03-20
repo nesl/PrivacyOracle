@@ -1,4 +1,5 @@
 results/*
+!results/gt_user_study
 API_KEY
 datasets/*
 venv
