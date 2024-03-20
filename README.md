@@ -11,6 +11,7 @@ To run the private state experiments, you also need to download the [ADL dataset
 
 Once you have completed these steps, you should see the following folder and file structure:
 
+```
 PrivacyOracle/
 ├── API_KEY
 ├── datasets/
@@ -18,3 +19,4 @@ PrivacyOracle/
 ├── prompts
 ├── query
 └── run_queries.py
+```
