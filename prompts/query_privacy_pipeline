@@ -1,0 +1,12 @@
+{
+     "data": [
+            {"role": "user", "content": "I will ask you to build a program according to a user's privacy preferences.  This program takes in a folder of images of different users and performs certain transformations on it.  The program is made up of a pipeline of several modules:  'detect_face', which obtains an image, detects faces in an image, and returns the image.  'blur_face' which distorts the appearance of one's face given a detected face and makes it incredibly blurry.  'save_image_to_directory' which saves a transformed image.  'block_image' which returns a blank image given a detected face.  'convert_images_to_video' which takes in a folder of images and converts it into a video.  'facefusion' which takes in a video and automatically swaps appearances of faces with a predefined face, and outputs a video with the swapped appearances, but information such as expressions and emotions are retained. 'convert_video_to_images' converts a video into images, and automatically saves it similar to 'save_image_to_directory'.  \n  I will now provide several program requirements and notes.  First, the input to this pipeline is a set of images, and the output must also be images.  Second, when facefusion is used, it must first convert images into video, and then back into images once facefusion is completed. \n When producing the pipeline, you should describe it as a list of modules, such as ['detect_face', 'blur_face', 'save_image_to_directory'].  I will now provide the preferences for you to create pipelines.  Ready?"  
+            },
+            {"role": "user", "content": "Users in the images wish to hide any trace of them being part of the video.  Please create a pipeline based on this preference." 
+            },
+            {"role": "user", "content": "Users in the images wish to hide their facial appearance, but are fine with the images revealing other information, such as the color of their shirt.  Please create a pipeline based on this preference."
+            },
+            {"role": "user", "content": "Users in the images wish to hide their facial appearance.  At the same time, they would like to enable emotion classification services on their facial data.  Please create a pipeline based on this preference."
+            }
+     ]
+}

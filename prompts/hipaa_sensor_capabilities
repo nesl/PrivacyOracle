@@ -1,0 +1,10 @@
+{
+     "data": [
+            {"role": "user", "content": "Given your knowledge of HIPAA, consider a covered entity which wishes deploy sensors in an environment which collect information about individuals.  I will now give a list of sensors - please identify any which you believe can be considered an identifier under the 18 Protected Health Information identifiers under HIPAA. Please first respond with a yes/no answer, then provide a reason.  Ready?" 
+            },
+            {"role": "user", "content": "Consider the following knowledge about inferences from different sensors.  Please consider this knowledge in future questions: \nRadio Frequency sensing devices are capable of detecting heart rate and respiration patterns of individuals.  Inertial Measurement Units are capable of identifying age, gender, user identity, and sleep behaviors of individuals.  GPS devices can be used to measure stress in individuals.  Speech and audio data of individuals can be used to infer user identity, presence of flu, and clinical depression.  I will now give a list of sensors - please identify any which you consider to be an identifier under the 18 Protected Health Information identifiers under HIPAA. Please first respond with a yes/no answer, then provide a reason.  Ready?" 
+            },
+            {"role": "user", "content": "List of sensors: \n Radio Frequency sensing devices, such as WiFi \n Inertial Measurement Units attached to patients \n GPS devices attached to patients \n Voice assistants recording speech"
+            }
+     ]
+}

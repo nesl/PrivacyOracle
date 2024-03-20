@@ -1,0 +1,12 @@
+{
+     "data": [
+            {"role": "user", "content": "Consider a smart home with several different sensors.  I will provide data from various sensors in this smart home which describe activities of a user living in this home.  I will also provide the preferences given by this user, and your objective is to decide if sharing such sensor data would violate that preference.  Note that 'Seat' refers to a couch or armchair.  Ready?" 
+            },
+            {"role": "user", "content": "The user living in this home does not want to reveal any information about their self-hygiene routines.  I will now give sensor data from a single day.  The format of this sensor data is in the form of (start time of sensor event, end time of sensor event, type of sensor, sensor location).  Please list out the times, in (start time, end time) format for when data should not be revealed: " 
+            },
+            {"role": "user", "content": "The user living in this home does not want to reveal any information that demonstrates having a sedentary lifestyle.  I will now give sensor data from a single day.  The format of this sensor data is in the form of (start time of sensor event, end time of sensor event, type of sensor, sensor location).  Please list out the times, in (start time, end time) format for when data should not be revealed: "
+            },
+            {"role": "user", "content": "The user living in this home does not want to reveal any information about when they leave the house.  I will now give sensor data from a single day.  The format of this sensor data is in the form of (start time of sensor event, end time of sensor event, type of sensor, sensor location).  Please list out the times for when data should not be revealed.  Note that not all doors refer to the house entrance.  When listing out these times, only use this format: (start time, end time). "
+            }
+     ]
+}

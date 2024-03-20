@@ -1,0 +1,17 @@
+{
+     "data": [
+            {"role": "user", "content":
+            "Recall the 5 parameters of the context used for an informational flow as described in the theory of Contextual Integrity.  As a reminder, these parameters are data subject, sender, recipient, data type, and transmission principle.  Now consider the HIPAA Privacy Rule, which describes different ways that information may be shared.  I will now ask you to verify if the follow informational flows are permitted under HIPAA.  Assume that the sender acts as a business associate to a covered entity, and thus falls under HIPAA jurisdiction.  Please format your response according to answer==**yes/no**.  For example, if the informational flow is not permitted under HIPAA, then please format the response as answer==**no**.  Once you have written down this format, please also provide a reason why you answered in that way.  When providing an answer, please perform the following steps: \n state who the data subject is \n state who has provided consent \n determine if the data subject has provided consent \n answer yes or no if the informational flow is permitted \n reason about the answer.  Keep in mind that a visitor is not the same person as the owner.  In addition, keep in mind that this informational flow is intended for medical treatment of the data subject.  Ready?" 
+            },
+            {"role": "user", "content":
+            "Can you verify if the following informational flow is permitted under HIPAA?  \n Data subject: {subject} \n Sender: {sender} \n Recipient: {frecipient} \n Data type: {fdatatype} \n Transmission principles: {fprinciples}. \nAssume that the sender acts as a business associate to a covered entity, and thus falls under HIPAA jurisdiction.  All information shared is involved in treatment of the data subject."
+            }
+     ],
+     "possibilities": {
+     	"subject": ["Bob, the owner of the sender device", "Alice, who does not own any devices"],
+     	"sender": ["A microphone capturing health data"],
+     	"recipient":["the data subject's doctor", "the data subject's family involved in medical treatment"],
+     	"datatype": ["stress measurements","age and gender"],
+     	"principles": ["Bob has provided explicit consent allowing the informational flow, while Alice has not consented.", "Alice has provided explicit consent allowing the informational flow, while Bob has not consented."]
+     }
+}
