@@ -28,3 +28,8 @@ PrivacyOracle/
 ├── README.md
 └── requirements.txt
 ```
+
+As a final step, you will need to install all the software dependencies
+```
+pip install -r requirements.txt
+```
